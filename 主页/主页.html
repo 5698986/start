@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人主页</title>							
+		<style type='text/css'>			
+			*{
+				margin: 0;
+				padding: 0;
+				text-decoration: none;
+			}
+			.kj{
+				width: 95%;
+				height: 1500px;
+				margin:auto;
+				border:1px solid black;
+				background: #242424;
+			}
+			.d1,.d8{
+				width: 1000px;
+				height: 445px;
+				margin: auto;
+				background: #242424;
+				border: 1px solid #242424;
+			}
+			.d2{
+				width: 300px;
+				height:100px;
+				margin-left: 95px;
+				background:url('one.png');
+				background-size: 100%;
+				float: left;
+				line-height: 75px;	
+			}
+			.d2z1{
+				color: white;
+				font-size: 37px;
+				margin-left: 12px;
+				font-weight: 600; 
+			}
+			.d3{
+				width: 500px;
+				height: 55px;
+				float: right;
+				margin-top: 25px;
+				margin-right:55px;
+				line-height: 55px;
+			}
+			.d31{
+				width: 49px;
+				height: 50px;
+				margin-top: 0px;
+				float: left;				
+				background: url('logo.png');
+				animation: animation 1s ease-in infinite;
+			}
+			.d3z1 a{
+				color: white;
+				font-size: 26px;
+				margin-left: 30px;
+				margin-top: 10px;
+				font-family: 楷体;
+			}
+			@keyframes animation{
+				0%{
+					transform: rotate(0deg);
+				}
+				10%{
+					transform: rotate(36deg);
+				}
+				20%{
+					transform: rotate(72deg);
+				}
+				30%{
+					transform: rotate(108deg);
+				}
+				40%{
+					transform: rotate(144deg);
+				}
+				50%{
+					transform: rotate(180deg);
+				}
+				60%{
+					transform: rotate(216deg);
+				}
+				70%{
+					transform: rotate(252deg);
+				}
+				80%{
+					transform: rotate(288deg);
+				}
+				90%{
+					transform: rotate(314deg);
+				}
+				100%{
+					transform: rotate(360deg);
+				}
+			}			
+			.d4{
+				width: 800px;
+				height: 290px;
+	            margin:auto;
+				clear: both;
+				border:5px solid white;
+				margin-top: 115px;
+				background: url('001.jpg');				
+				background-size: 100%;
+			}
+			.d5{
+				width: 100%;
+				height: 880px;
+				margin:auto;
+				background: url('bj.png');			
+			}
+			.d6{
+				width: 800px;
+				height: 440px;
+				margin: auto;
+				margin-top: 1px;
+			}
+			.d605{	
+				width: 600px;			
+				height: 100px;
+				margin: auto;
+				float: left;
+				margin-top: 1px;
+			}
+			.d606{
+				width: 196px;			
+				height: 100px;
+				margin-top: 15px;
+				float: right;
+				display: inside;
+				background: url('qz.jpg');
+				background-size:100%;
+			}			
+			.d61,.d62,.d63{
+				width: 245px;
+				height: 290px;
+				margin-top: 25px;
+			}
+			.d61{
+				float: left;
+				clear: left;										
+			}
+			.d62{
+				float: left;
+				margin-left: 30px;
+			}	
+			.d63{				
+				float: right;		
+			}
+			.d6101,.d6201,.d6301{
+				width: 240px;
+				height: 150px;			
+				border:3px solid #CCCCCC;	
+				margin-left: 0px;						
+			}
+			.d6101{
+				background: url('lf.png');
+				background-size: 100%;
+				margin-top: 15px;
+			}
+			.d6201{
+				background: url('nd.jpg');
+				background-size: 100%;
+				margin-top: 15px;
+			}
+			.d6301{
+				background: url('sl.jpg');
+				background-size: 100%;
+			}	
+			.p1{
+				text-align: right;
+			}
+				
+			.z1,.z2{
+				margin-top: 10px;
+				color: white;
+				font-size: 16px;
+				font-weight: 600;
+				margin-left: 15px;
+			}
+			.z2,.z3{
+				color: black;
+				font-size: 22px;
+				font-weight: 900;
+				font-family:楷体;
+			}
+			.z3{
+				font-size: 50px;
+				color: #FF6600;
+			}
+			.d83t1{
+				width: 260px;
+				height:30px;
+			}
+			.d83t2{
+				width: 260px;
+				height: 120px;
+				resize:"none";
+			}
+			.d81t3{
+				width: 50px;
+				height: 30px;
+			}			
+			.d7{
+				width: 800px;
+				height: 400px;
+				margin:auto;
+				margin-top: 10px;
+			}
+			.z4{
+				font-size: 16px;
+				font-weight: 800;
+			}
+			.d8{
+				height: 320px;
+				width: 100%;
+				clear: both;
+				margin-top: 20px;
+			}			
+			.d81{
+				width: 40%;
+				height: 100%;
+				float: right;
+			}
+			.d81 input,.d81 textarea{				
+				background: #242424;
+				color: #CCCCCC;
+				margin-top: 10px;
+				padding-left:5px;
+				border: 1px solid #3B3B3B;
+			}
+			.d82{
+				width: 29%;
+				height: 100%;
+				float: right;
+				margin-right: 120px;
+				margin-top: 6px;
+			}
+			.z5{
+			   color:#CCCCCC;
+			   font-size: 15px;
+			   font-weight: 400;
+			}
+			.l2{
+
+				margin-top: 16px;
+				font-weight: 700;
+			}
+			</style>
+			<script type="text/javascript">
+								var index=0;
+								var arr =["1.jpg","2.jpg","3.png","4.jpg","5.jpg","6.jpg","7.jpg"];		
+									setInterval(ht,2000);
+									function ht(){
+										index++;
+										var b = document.getElementById("tp");
+										b.src = arr[index%arr.length];																
+									}								
+				</script>	
+	</head>
+			<body>
+				<div class="kj">
+				<div class="d1">
+						<div class="d2">
+						</div>
+						<div class="d3">
+							<div class="d31">				
+							</div>
+							<p  class="d3z1">
+								<a href="#" >个人档案</a>
+								<a href="欢迎界面.html" >主题相册</a>
+								<a href="#ly">给我留言</a>
+							</p>
+						</div>
+						<div class="d4">
+							
+						</div>
+				</div>
+					<div class="d5">
+							<div class="d6">
+								<div class="d605">
+									<span class="z2">
+										<span class="z3">
+											生
+										</span>
+										活不止眼前的苟且，还有诗和远方的田野，
+									你赤手空拳来到人世间,为找到那片海不顾一切
+									</span>					
+								</div>
+								<div class="d606">
+									
+								</div>					
+
+									
+								 <div class="d61" >									
+									 	<div class="d6101">	
+						 	</div>
+						 		<span class="z4">
+								 	<br/>
+								 	<br/>
+						 				奇迹只会降临在不言放弃的人身上
+						 			<br/><br/>	
+						 					不要小看奇迹
+						 			<br/><br/>   <p class="p1"> ——蒙奇.D.路飞</p>
+						 	</span>		
+					 </div>
+					 <div class="d62">
+			 	            <div class="d6201">		 	            	
+			 	            </div>
+			 	            <span class="z4">
+			 	            	<br/>
+			 	            		<br/>
+			 	           男人无论是敌人还是同伴一样
+			 	           	<br/>	<br/>除了他(路飞)以外
+			 	           	<br/>	<br/><p class="p1">——波雅.汉库克</p>
+			 	           </span>
+					 </div>
+					 <div class="d63">
+			 	             <div class="d6301">		 	             	
+			 	             </div>
+			 	             <span class="z4">
+			 	             <br/>	<br/>
+			 	             背后中剑
+			 	             <br/>	<br/>
+			 	             是剑士的耻辱
+			 	             <br/>	<br/><p class="p1">——罗罗诺亚·索隆</p>
+			 	             </span>
+					 </div>
+					 						
+			</div>
+			<div class="d7" >
+						<img id='tp' src="1.jpg" height="400" width="800">						
+			</div>
+		</div>
+		<div class='d8'>
+					<div class='d81'>
+						<p class='z1'>
+						  	留言	
+						</p>
+							<form class="d81t3">
+									<input type="text" value='Name' class="d83t1"></input>				
+									<input type="text" Value='Emali' class="d83t1"></input>				 				
+									 <textarea name="" class="d83t2" ></textarea>
+									 <input type='button' value="Send" class="d81t3" ></input>
+									 <a name='ly' href="#"></a>
+							 </form>
+					</div>
+				<div class="d82">
+				       <p class="z1">
+				         合作伙伴
+				       </p> 
+					<ul>
+						<li class="l2">
+							<a href="#" class="z5">百度</a>
+						</li>
+						<li class="l2">
+							<a href="#" class="z5">谷歌</a>
+						</li>
+						<li class="l2">
+							<a href="#" class="z5">搜狐</a>
+						</li>
+						<li class="l2">
+							<a href="#" class="z5">各大高等院校</a>
+						</li>
+						<li class="l2">
+							<a href="#" class="z5">世界五百强</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="yy"> 
+				<embed src="Try Everything.mp3" width='0' height='0' loop='true'>
+			</div>
+	</div>
+</body>
+</html>
